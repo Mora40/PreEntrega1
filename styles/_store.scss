@@ -1,0 +1,16 @@
+.store-item-img {
+    height: 200px;
+    width: 200px;
+    flex-grow: 1;
+}
+
+.contenedor {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.store-item {
+    margin: 20px;
+}

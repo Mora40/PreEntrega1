@@ -1,0 +1,12 @@
+header {
+    @include mobile{
+        margin-top: 10px;
+        .logo{
+            height: 15vh;
+            width: auto;
+        }
+        h1 {
+            display: none;
+        }
+    }
+}

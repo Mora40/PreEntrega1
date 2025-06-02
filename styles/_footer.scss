@@ -1,0 +1,16 @@
+footer{
+    margin: 0 10px;
+    position:absolute;
+    bottom:0;
+    .socials { 
+        height: 30px;
+        width: 30px;
+    }
+    @include flex-row;
+    @include mobile{
+        flex-direction: column;
+        section{
+            margin: 20px 0;
+        }
+    }
+}
