@@ -8,7 +8,9 @@ footer{
     }
     @include flex-row;
     @include mobile{
+        position:relative;
         flex-direction: column;
+        align-items: center;
         section{
             margin: 20px 0;
         }

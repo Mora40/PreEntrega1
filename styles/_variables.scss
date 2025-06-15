@@ -21,7 +21,9 @@ body{
     background-color: $colorSecundario;
     background-blend-mode: overlay;
     border: 1px solid $colorPrimario;
-    height: 100vh;
+    height: auto;
+    min-height: 100vh;
+    position: relative;
 }
 
 @mixin mobile {
